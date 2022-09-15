@@ -1,0 +1,99 @@
+h1 + h2 {
+  color: black;
+  font-family: 'Montserrat';
+  color:rgb(53, 49, 73)
+
+}
+
+h1 + h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Lato';
+  font-weight: 300;
+  background-color: rgb(241, 109, 65);
+  color:rgb(53, 49, 73);
+}
+
+p{
+  margin: 0;
+}
+
+footer {
+  font-family: 'Lato';
+  font-weight: 100;
+}
+
+h6  {
+  font-size: 8px;
+}
+
+a {
+  color: rgb(80, 73, 110);
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: 5px, 5px, 3px, rgb(53, 49, 73, 0.3)
+}
+
+p {
+  text-align: center;
+}
+
+.shadowed {
+  box-shadow: 5px, 5px, 3px, white;
+}
+
+/* # CUSTOM DESIGN USIGN 99% OF CLASSES */
+
+.card-white {
+  background-color: rgb(255, 238, 219);
+  width: 800px;
+  margin: 16px auto;
+  padding: 8px;
+  box-shadow: 0px 3px 5px rgb(255, 238, 219, 0.3);
+  border-radius: 2px;
+}
+
+.card-white:hover {
+  box-shadow: 0 30px 45px rgb(250, 245, 240, 0.3);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: rgb(80, 73, 110);
+  border-radius: 4px;
+  color: rgb(255, 238, 219);
+  padding: 1em 1em 1em;
+  border: none;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px 20px;
+
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 8px;
+}
+
+.text-center {
+  text-align: center;
+}
